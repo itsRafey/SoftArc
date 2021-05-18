@@ -12,6 +12,7 @@ import Upload from './screens/Upload'
 import Saved from './screens/Saved'
 import ContactUs from './screens/ContactUs'
 
+
 const Drawer = createDrawerNavigator();
 
 
@@ -69,6 +70,7 @@ useEffect(()=>{
         <Drawer.Screen name="ContactUs" component={ContactUs} />
         <Drawer.Screen name="Saved" component={Saved} />
         <Drawer.Screen name="Upload" component={Upload} />
+      
        
        
       </Drawer.Navigator>

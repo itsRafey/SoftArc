@@ -112,6 +112,18 @@ return(
     onPress={()=>{ props.navigation.navigate ('ContactUs')}}
 />
 
+<DrawerItem
+      icon={({color,size})=>(
+          <Icon
+          name="QuestionOutlined"
+          color={color}
+          size={size}
+          />
+      )}
+    label="Help"
+    onPress={()=>{ props.navigation.navigate ('Accordian')}}
+/>
+
 </Drawer.Section>
 
 

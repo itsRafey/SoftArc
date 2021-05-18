@@ -24,7 +24,7 @@ const SplashScreen = ({navigation}) => {
             <Animatable.Image 
                 animation="bounceInLeft"
                 duraton="2000"
-            source={require('../asset/logo1.png')}
+            source={require('../asset/logo2.png')}
             style={styles.logo}
             resizeMode="stretch"
             />
